@@ -15,7 +15,8 @@ RUN pip install --no-cache-dir -r ./requirements.txt
 
 # Copy app code and data (repo-root-relative)
 COPY backend/app/ ./app/
-COPY data/ ./data/
+# Place data at /data so the app's DATA_DIR (which resolves to /data) can find it
+COPY data/ /data/
 
 # Expose port
 EXPOSE 8000
