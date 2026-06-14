@@ -7,15 +7,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     gcc \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements
-COPY requirements.txt .
+# Copy requirements (repo-root-relative)
+COPY backend/requirements.txt ./requirements.txt
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r ./requirements.txt
 
-# Copy app code
-COPY app/ app/
-COPY ../data/ ../data/
+# Copy app code and data (repo-root-relative)
+COPY backend/app/ ./app/
+COPY data/ ./data/
 
 # Expose port
 EXPOSE 8000
