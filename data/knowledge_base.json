@@ -1,0 +1,106 @@
+[
+  {
+    "kb_id": "KB-001",
+    "title": "Rapid line-of-therapy switching within 12 months",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: when a patient switches therapy lines more than once within a 12-month window, this pattern often correlates with either inadequate initial response assessment or premature discontinuation before steady-state effects are observed. Care teams are typically advised to review whether each prior line was given an adequate trial period before the next switch.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["rapid_switch", "LOT", "general"]
+  },
+  {
+    "kb_id": "KB-002",
+    "title": "Therapy gaps and metabolic control",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: gaps between discontinuation of one therapy and initiation of the next, even short ones, have been associated with transient loss of metabolic control in PKU management. A gap exceeding 30 days is often flagged for care team follow-up to confirm continuity of care.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["gap_in_therapy", "continuity_of_care"]
+  },
+  {
+    "kb_id": "KB-003",
+    "title": "Phe level rebound after initial improvement on enzyme substitution therapy",
+    "drug_class": "Enzyme substitution therapy",
+    "summary": "Paraphrased guidance: patients on enzyme substitution therapy frequently show Phe-level normalization within the first 3-6 months. A rebound increase after month 9-12 has been more often associated with adherence decline than with loss of drug efficacy, and an adherence conversation is typically suggested before considering a further LOT switch.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["rebound", "enzyme_substitution", "adherence"]
+  },
+  {
+    "kb_id": "KB-004",
+    "title": "Adherence decline as a confounder in apparent treatment failure",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: a drop in adherence of more than 15 percentage points between consecutive lines of therapy is a common confounder when evaluating apparent treatment failure. Care teams are often advised to address adherence barriers before attributing rising biomarker levels solely to drug inefficacy.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["adherence", "confounder"]
+  },
+  {
+    "kb_id": "KB-005",
+    "title": "BH4 cofactor therapy non-response patterns",
+    "drug_class": "BH4 cofactor therapy",
+    "summary": "Paraphrased guidance: a meaningful subset of patients do not show adequate biochemical response to BH4 cofactor therapy within the first 4-6 months. Lack of response within this window is generally considered a reasonable basis for evaluating alternative therapy classes, distinct from an adherence-related issue.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["BH4", "non_response", "cofactor_therapy"]
+  },
+  {
+    "kb_id": "KB-006",
+    "title": "Dietary management alone in adolescent and adult patients",
+    "drug_class": "Diet-based management",
+    "summary": "Paraphrased guidance: dietary Phe restriction alone, when used as a long-term sole management strategy in adolescent and adult patients, has been associated with gradually worsening metabolic control over time as dietary adherence naturally declines with age and lifestyle changes. Periodic review of biomarker trends is generally suggested for patients on diet-only management.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["diet_management", "worsening_trend", "adolescent"]
+  },
+  {
+    "kb_id": "KB-007",
+    "title": "Amino acid supplementation as an interim strategy",
+    "drug_class": "Amino acid supplementation",
+    "summary": "Paraphrased guidance: large neutral amino acid (LNAA) supplementation is often used as an interim or adjunct strategy rather than a long-term sole therapy. Sustained use as a sole strategy alongside declining adherence has been linked to gradual biomarker drift, and is commonly reviewed at routine intervals.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["LNAA", "interim_strategy", "biomarker_drift"]
+  },
+  {
+    "kb_id": "KB-008",
+    "title": "Tolerability-driven switches and re-trial considerations",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: switches driven by tolerability issues (rather than lack of efficacy) do not necessarily preclude future re-trial of the same drug class under modified dosing or supportive management, and this distinction is often relevant when reviewing a patient's full LOT history.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["tolerability", "switch_reason", "re_trial"]
+  },
+  {
+    "kb_id": "KB-009",
+    "title": "Pediatric vs adult monitoring frequency considerations",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: younger pediatric patients (ages 6-12) are often monitored on a tighter biomarker review cadence than adult patients, given the developmental sensitivity to sustained elevated Phe levels. Apparent 'worsening' trends in this age band may partly reflect closer monitoring rather than a true change in status, and should be reviewed against the monitoring cadence.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["pediatric", "monitoring_cadence", "age_band"]
+  },
+  {
+    "kb_id": "KB-010",
+    "title": "Multiple concurrent risk signals and care coordination",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: when a patient profile shows two or more concurrent risk signals (e.g., rapid switching combined with a therapy gap, or adherence decline combined with biomarker rebound), care coordination teams are often advised to prioritize a consolidated review rather than addressing each signal in isolation, since underlying causes may overlap.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["multiple_signals", "care_coordination", "prioritization"]
+  },
+  {
+    "kb_id": "KB-011",
+    "title": "Stable trend with sub-optimal adherence",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: a 'stable' biomarker trend in the presence of sub-optimal adherence (below roughly 70%) should generally not be interpreted as confirmation of adequate disease control, since stability may reflect a plateau rather than true control, and may benefit from closer review alongside adherence support.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["stable_trend", "adherence", "plateau"]
+  },
+  {
+    "kb_id": "KB-012",
+    "title": "Guideline-update-driven switches",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: switches attributed to guideline updates typically reflect external practice changes rather than patient-specific treatment failure, and are generally not weighted as a risk signal in the same way as switches attributed to inadequate response or adherence decline.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["guideline_update", "switch_reason", "context"]
+  },
+  {
+    "kb_id": "KB-013",
+    "title": "Long single-LOT duration without re-assessment",
+    "drug_class": "general",
+    "summary": "Paraphrased guidance: patients remaining on a single line of therapy for an extended duration (multiple years) without a documented re-assessment may benefit from a periodic review to confirm the therapy remains optimal, particularly if newer therapy classes have since become available.",
+    "source_type": "synthetic_clinical_summary",
+    "tags": ["long_duration", "re_assessment", "single_LOT"]
+  }
+]

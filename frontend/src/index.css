@@ -1,0 +1,538 @@
+/* ============================================================
+   PharmaSense Agent — Design System
+   ------------------------------------------------------------
+   Palette:
+     --bg:        #F6F5F1  (warm clinical paper)
+     --surface:   #FFFFFF
+     --ink:       #1F2A2E  (deep slate-teal, near-black)
+     --ink-soft:  #5C6B6E
+     --teal:      #0E6E66  (primary accent — trust/clinical)
+     --teal-soft: #E4F1EF
+     --amber:     #C97A2B  (medium severity)
+     --red:       #B5453B  (high severity)
+     --line:      #DEDAD2
+
+   Type:
+     Display / headings: "Fraunces" (serif, editorial, trustworthy)
+     Body: "Inter" (clean, clinical)
+     Data / citations / trace: "IBM Plex Mono" (audit-trail feel)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #F6F5F1;
+  --surface: #FFFFFF;
+  --ink: #1F2A2E;
+  --ink-soft: #5C6B6E;
+  --teal: #0E6E66;
+  --teal-soft: #E4F1EF;
+  --amber: #C97A2B;
+  --amber-soft: #FBF1E6;
+  --red: #B5453B;
+  --red-soft: #FBEDEB;
+  --line: #DEDAD2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .display {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+code, .mono, .citation {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+  color: var(--teal);
+}
+
+button {
+  font-family: 'Inter', system-ui, sans-serif;
+  cursor: pointer;
+}
+
+/* ------- Layout shells ------- */
+.app-shell {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+.topbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 28px 0 20px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 28px;
+}
+
+.topbar .brand {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.topbar .brand small {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--teal);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-left: 10px;
+  padding: 3px 8px;
+  background: var(--teal-soft);
+  border-radius: 4px;
+}
+
+.topbar nav {
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+/* ------- Disclaimer banner (always visible, every screen) ------- */
+.disclaimer-banner {
+  background: var(--amber-soft);
+  border: 1px solid #EFD9BD;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #7A4A14;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.disclaimer-banner strong {
+  color: #5C3710;
+}
+
+/* ------- Cards / grid ------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.cohort-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 14px;
+}
+
+.patient-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 18px;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.1s;
+}
+
+.patient-card:hover {
+  border-color: var(--teal);
+  transform: translateY(-1px);
+}
+
+.patient-card .pid {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: var(--teal);
+  margin-bottom: 6px;
+}
+
+.patient-card h3 {
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+
+.patient-card .meta {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.flag-row {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.flag {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 100px;
+  font-weight: 500;
+}
+
+.flag.rapid {
+  background: var(--amber-soft);
+  color: var(--amber);
+}
+
+.flag.gap {
+  background: var(--red-soft);
+  color: var(--red);
+}
+
+.flag.clean {
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+
+/* ------- Detail page layout ------- */
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.detail-header h1 {
+  font-size: 28px;
+  margin: 0 0 4px;
+}
+
+.detail-header .subtitle {
+  font-size: 13px;
+  color: var(--ink-soft);
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.back-link {
+  font-size: 13px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.back-link:hover {
+  color: var(--teal);
+}
+
+.btn-analyze {
+  background: var(--teal);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity 0.15s;
+}
+
+.btn-analyze:hover {
+  opacity: 0.9;
+}
+
+.btn-analyze:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* ------- Lab trend chart card ------- */
+.chart-card {
+  margin-bottom: 18px;
+}
+
+.chart-card h3, .lot-card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
+
+/* ------- LOT timeline ------- */
+.lot-card {
+  margin-bottom: 18px;
+}
+
+.lot-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lot-item {
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.lot-item:last-child {
+  border-bottom: none;
+}
+
+.lot-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--teal);
+  background: var(--teal-soft);
+  border-radius: 6px;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.lot-item .lot-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.lot-item .lot-meta {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+.lot-item .lot-adherence {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ------- Reasoning trace ------- */
+.trace-step {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  opacity: 0;
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.trace-step-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  cursor: pointer;
+}
+
+.trace-step-num {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--teal-soft);
+  color: var(--teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.trace-step-title {
+  flex: 1;
+}
+
+.trace-step-title .name {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.trace-step-title .desc {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+.trace-step-toggle {
+  font-size: 12px;
+  color: var(--ink-soft);
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.trace-step-body {
+  padding: 0 18px 18px 58px;
+  font-size: 13px;
+}
+
+.signal-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+}
+
+.signal-row:first-child {
+  border-top: none;
+}
+
+.severity-tag {
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.severity-high { background: var(--red-soft); color: var(--red); }
+.severity-medium { background: var(--amber-soft); color: var(--amber); }
+.severity-low { background: var(--teal-soft); color: var(--teal); }
+
+.kb-match-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-top: 1px solid var(--line);
+  font-size: 12.5px;
+}
+
+.kb-match-row:first-child {
+  border-top: none;
+}
+
+.kb-id-chip {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  background: var(--teal-soft);
+  color: var(--teal);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.audit-clean {
+  color: var(--teal);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12.5px;
+}
+
+/* ------- Brief ------- */
+.brief-card {
+  margin-top: 24px;
+}
+
+.brief-card h2 {
+  font-size: 20px;
+  margin: 0 0 6px;
+}
+
+.brief-summary {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-bottom: 20px;
+}
+
+.brief-section {
+  margin-bottom: 18px;
+}
+
+.brief-section h4 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  font-family: 'Inter', sans-serif;
+  margin: 0 0 10px;
+}
+
+.brief-bullet {
+  font-size: 13.5px;
+  line-height: 1.7;
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+}
+
+.brief-bullet:first-child {
+  border-top: none;
+}
+
+.citation {
+  display: inline-block;
+  font-size: 11px;
+  background: var(--teal-soft);
+  color: var(--teal);
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.review-banner {
+  margin-top: 18px;
+  background: var(--red-soft);
+  color: #7A2A22;
+  border: 1px solid #F0CFC9;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* ------- Loading / empty ------- */
+.loading-state, .empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.spinner {
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--line);
+  border-top-color: var(--teal);
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 640px) {
+  .app-shell { padding: 0 16px 60px; }
+  .topbar { flex-direction: column; gap: 8px; }
+  .detail-header h1 { font-size: 22px; }
+  .trace-step-body { padding: 0 14px 14px 14px; }
+}

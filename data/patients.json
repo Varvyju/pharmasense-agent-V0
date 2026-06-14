@@ -1,0 +1,1813 @@
+[
+  {
+    "patient_id": "SYN-0001",
+    "age_band": "6-12",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2010-04-13",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2010-06-09",
+        "end_date": "2010-09-29",
+        "switch_reason": "inadequate_response",
+        "adherence_pct": 92
+      },
+      {
+        "lot": 2,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2010-10-26",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 56
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2010-10-26",
+        "phe_level_umol_L": 840
+      },
+      {
+        "date": "2011-01-24",
+        "phe_level_umol_L": 731
+      },
+      {
+        "date": "2011-04-24",
+        "phe_level_umol_L": 587
+      },
+      {
+        "date": "2011-07-23",
+        "phe_level_umol_L": 504
+      },
+      {
+        "date": "2011-10-21",
+        "phe_level_umol_L": 655
+      },
+      {
+        "date": "2012-01-19",
+        "phe_level_umol_L": 760
+      },
+      {
+        "date": "2012-04-18",
+        "phe_level_umol_L": 931
+      },
+      {
+        "date": "2012-07-17",
+        "phe_level_umol_L": 1094
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 27,
+      "rapid_switch_count": 1
+    }
+  },
+  {
+    "patient_id": "SYN-0002",
+    "age_band": "13-17",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2015-01-14",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2015-02-14",
+        "end_date": "2015-09-04",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 68
+      },
+      {
+        "lot": 2,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2015-09-25",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 60
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2015-09-25",
+        "phe_level_umol_L": 1002
+      },
+      {
+        "date": "2015-12-24",
+        "phe_level_umol_L": 877
+      },
+      {
+        "date": "2016-03-23",
+        "phe_level_umol_L": 753
+      },
+      {
+        "date": "2016-06-21",
+        "phe_level_umol_L": 640
+      },
+      {
+        "date": "2016-09-19",
+        "phe_level_umol_L": 823
+      },
+      {
+        "date": "2016-12-18",
+        "phe_level_umol_L": 908
+      },
+      {
+        "date": "2017-03-18",
+        "phe_level_umol_L": 1081
+      },
+      {
+        "date": "2017-06-16",
+        "phe_level_umol_L": 1219
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 21,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0003",
+    "age_band": "26-40",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2010-11-19",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2011-01-13",
+        "end_date": "2011-04-18",
+        "switch_reason": "inadequate_response",
+        "adherence_pct": 97
+      },
+      {
+        "lot": 2,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2011-05-02",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 60
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2011-05-02",
+        "phe_level_umol_L": 1228
+      },
+      {
+        "date": "2011-07-31",
+        "phe_level_umol_L": 1136
+      },
+      {
+        "date": "2011-10-29",
+        "phe_level_umol_L": 1008
+      },
+      {
+        "date": "2012-01-27",
+        "phe_level_umol_L": 893
+      },
+      {
+        "date": "2012-04-26",
+        "phe_level_umol_L": 1031
+      },
+      {
+        "date": "2012-07-25",
+        "phe_level_umol_L": 1192
+      },
+      {
+        "date": "2012-10-23",
+        "phe_level_umol_L": 1378
+      },
+      {
+        "date": "2013-01-21",
+        "phe_level_umol_L": 1504
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 14,
+      "rapid_switch_count": 1
+    }
+  },
+  {
+    "patient_id": "SYN-0004",
+    "age_band": "18-25",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2013-12-26",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2014-02-12",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 89
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2014-02-12",
+        "phe_level_umol_L": 864
+      },
+      {
+        "date": "2014-05-13",
+        "phe_level_umol_L": 756
+      },
+      {
+        "date": "2014-08-11",
+        "phe_level_umol_L": 662
+      },
+      {
+        "date": "2014-11-09",
+        "phe_level_umol_L": 521
+      },
+      {
+        "date": "2015-02-07",
+        "phe_level_umol_L": 373
+      },
+      {
+        "date": "2015-05-08",
+        "phe_level_umol_L": 242
+      },
+      {
+        "date": "2015-08-06",
+        "phe_level_umol_L": 154
+      },
+      {
+        "date": "2015-11-04",
+        "phe_level_umol_L": 120
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 0,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0005",
+    "age_band": "6-12",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2012-07-27",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2012-08-10",
+        "end_date": "2013-01-25",
+        "switch_reason": "adherence_decline",
+        "adherence_pct": 68
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2013-03-07",
+        "end_date": "2014-01-16",
+        "switch_reason": "guideline_update",
+        "adherence_pct": 96
+      },
+      {
+        "lot": 3,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2014-02-14",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 71
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2014-02-14",
+        "phe_level_umol_L": 895
+      },
+      {
+        "date": "2014-05-15",
+        "phe_level_umol_L": 767
+      },
+      {
+        "date": "2014-08-13",
+        "phe_level_umol_L": 674
+      },
+      {
+        "date": "2014-11-11",
+        "phe_level_umol_L": 540
+      },
+      {
+        "date": "2015-02-09",
+        "phe_level_umol_L": 426
+      },
+      {
+        "date": "2015-05-10",
+        "phe_level_umol_L": 292
+      },
+      {
+        "date": "2015-08-08",
+        "phe_level_umol_L": 181
+      },
+      {
+        "date": "2015-11-06",
+        "phe_level_umol_L": 120
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 70,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0006",
+    "age_band": "13-17",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2015-09-19",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2015-11-08",
+        "end_date": "2016-03-28",
+        "switch_reason": "guideline_update",
+        "adherence_pct": 93
+      },
+      {
+        "lot": 2,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2016-04-01",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 79
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2016-04-01",
+        "phe_level_umol_L": 1162
+      },
+      {
+        "date": "2016-06-30",
+        "phe_level_umol_L": 1192
+      },
+      {
+        "date": "2016-09-28",
+        "phe_level_umol_L": 1153
+      },
+      {
+        "date": "2016-12-27",
+        "phe_level_umol_L": 1127
+      },
+      {
+        "date": "2017-03-27",
+        "phe_level_umol_L": 1155
+      },
+      {
+        "date": "2017-06-25",
+        "phe_level_umol_L": 1149
+      },
+      {
+        "date": "2017-09-23",
+        "phe_level_umol_L": 1152
+      },
+      {
+        "date": "2017-12-22",
+        "phe_level_umol_L": 1126
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 4,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0007",
+    "age_band": "26-40",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2011-10-10",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2011-11-21",
+        "end_date": "2013-05-01",
+        "switch_reason": "inadequate_response",
+        "adherence_pct": 95
+      },
+      {
+        "lot": 2,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2013-05-20",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 93
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2013-05-20",
+        "phe_level_umol_L": 871
+      },
+      {
+        "date": "2013-08-18",
+        "phe_level_umol_L": 791
+      },
+      {
+        "date": "2013-11-16",
+        "phe_level_umol_L": 662
+      },
+      {
+        "date": "2014-02-14",
+        "phe_level_umol_L": 535
+      },
+      {
+        "date": "2014-05-15",
+        "phe_level_umol_L": 475
+      },
+      {
+        "date": "2014-08-13",
+        "phe_level_umol_L": 339
+      },
+      {
+        "date": "2014-11-11",
+        "phe_level_umol_L": 238
+      },
+      {
+        "date": "2015-02-09",
+        "phe_level_umol_L": 120
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 19,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0008",
+    "age_band": "6-12",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2014-01-26",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2014-02-20",
+        "end_date": "2015-07-14",
+        "switch_reason": "inadequate_response",
+        "adherence_pct": 60
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2015-08-14",
+        "end_date": "2016-12-03",
+        "switch_reason": "inadequate_response",
+        "adherence_pct": 89
+      },
+      {
+        "lot": 3,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2016-12-11",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 97
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2016-12-11",
+        "phe_level_umol_L": 1414
+      },
+      {
+        "date": "2017-03-11",
+        "phe_level_umol_L": 1395
+      },
+      {
+        "date": "2017-06-09",
+        "phe_level_umol_L": 1388
+      },
+      {
+        "date": "2017-09-07",
+        "phe_level_umol_L": 1415
+      },
+      {
+        "date": "2017-12-06",
+        "phe_level_umol_L": 1452
+      },
+      {
+        "date": "2018-03-06",
+        "phe_level_umol_L": 1466
+      },
+      {
+        "date": "2018-06-04",
+        "phe_level_umol_L": 1453
+      },
+      {
+        "date": "2018-09-02",
+        "phe_level_umol_L": 1482
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 39,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0009",
+    "age_band": "18-25",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2014-06-23",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2014-07-10",
+        "end_date": "2015-01-12",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 59
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2015-02-02",
+        "end_date": "2015-04-13",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 92
+      },
+      {
+        "lot": 3,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2015-04-27",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 59
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2015-04-27",
+        "phe_level_umol_L": 1175
+      },
+      {
+        "date": "2015-07-26",
+        "phe_level_umol_L": 1066
+      },
+      {
+        "date": "2015-10-24",
+        "phe_level_umol_L": 978
+      },
+      {
+        "date": "2016-01-22",
+        "phe_level_umol_L": 894
+      },
+      {
+        "date": "2016-04-21",
+        "phe_level_umol_L": 1084
+      },
+      {
+        "date": "2016-07-20",
+        "phe_level_umol_L": 1206
+      },
+      {
+        "date": "2016-10-18",
+        "phe_level_umol_L": 1295
+      },
+      {
+        "date": "2017-01-16",
+        "phe_level_umol_L": 1440
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 35,
+      "rapid_switch_count": 1
+    }
+  },
+  {
+    "patient_id": "SYN-0010",
+    "age_band": "18-25",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2017-07-03",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2017-07-28",
+        "end_date": "2018-11-01",
+        "switch_reason": "guideline_update",
+        "adherence_pct": 81
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2018-11-13",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 61
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2018-11-13",
+        "phe_level_umol_L": 1102
+      },
+      {
+        "date": "2019-02-11",
+        "phe_level_umol_L": 977
+      },
+      {
+        "date": "2019-05-12",
+        "phe_level_umol_L": 843
+      },
+      {
+        "date": "2019-08-10",
+        "phe_level_umol_L": 711
+      },
+      {
+        "date": "2019-11-08",
+        "phe_level_umol_L": 850
+      },
+      {
+        "date": "2020-02-06",
+        "phe_level_umol_L": 1040
+      },
+      {
+        "date": "2020-05-06",
+        "phe_level_umol_L": 1213
+      },
+      {
+        "date": "2020-08-04",
+        "phe_level_umol_L": 1299
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 12,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0011",
+    "age_band": "6-12",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2014-07-08",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2014-07-30",
+        "end_date": "2015-06-29",
+        "switch_reason": "guideline_update",
+        "adherence_pct": 63
+      },
+      {
+        "lot": 2,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2015-07-26",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 72
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2015-07-26",
+        "phe_level_umol_L": 996
+      },
+      {
+        "date": "2015-10-24",
+        "phe_level_umol_L": 1012
+      },
+      {
+        "date": "2016-01-22",
+        "phe_level_umol_L": 1042
+      },
+      {
+        "date": "2016-04-21",
+        "phe_level_umol_L": 1014
+      },
+      {
+        "date": "2016-07-20",
+        "phe_level_umol_L": 980
+      },
+      {
+        "date": "2016-10-18",
+        "phe_level_umol_L": 1009
+      },
+      {
+        "date": "2017-01-16",
+        "phe_level_umol_L": 970
+      },
+      {
+        "date": "2017-04-16",
+        "phe_level_umol_L": 941
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 27,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0012",
+    "age_band": "13-17",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2014-07-23",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2014-08-12",
+        "end_date": "2015-04-23",
+        "switch_reason": "inadequate_response",
+        "adherence_pct": 79
+      },
+      {
+        "lot": 2,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2015-05-09",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 73
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2015-05-09",
+        "phe_level_umol_L": 1287
+      },
+      {
+        "date": "2015-08-07",
+        "phe_level_umol_L": 1309
+      },
+      {
+        "date": "2015-11-05",
+        "phe_level_umol_L": 1288
+      },
+      {
+        "date": "2016-02-03",
+        "phe_level_umol_L": 1272
+      },
+      {
+        "date": "2016-05-03",
+        "phe_level_umol_L": 1269
+      },
+      {
+        "date": "2016-08-01",
+        "phe_level_umol_L": 1256
+      },
+      {
+        "date": "2016-10-30",
+        "phe_level_umol_L": 1223
+      },
+      {
+        "date": "2017-01-28",
+        "phe_level_umol_L": 1257
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 16,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0013",
+    "age_band": "18-25",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2010-08-23",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2010-09-05",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 60
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2010-09-05",
+        "phe_level_umol_L": 1232
+      },
+      {
+        "date": "2010-12-04",
+        "phe_level_umol_L": 1144
+      },
+      {
+        "date": "2011-03-04",
+        "phe_level_umol_L": 1056
+      },
+      {
+        "date": "2011-06-02",
+        "phe_level_umol_L": 946
+      },
+      {
+        "date": "2011-08-31",
+        "phe_level_umol_L": 1077
+      },
+      {
+        "date": "2011-11-29",
+        "phe_level_umol_L": 1172
+      },
+      {
+        "date": "2012-02-27",
+        "phe_level_umol_L": 1372
+      },
+      {
+        "date": "2012-05-27",
+        "phe_level_umol_L": 1565
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 0,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0014",
+    "age_band": "41-60",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2016-09-01",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2016-09-27",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 97
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2016-09-27",
+        "phe_level_umol_L": 1095
+      },
+      {
+        "date": "2016-12-26",
+        "phe_level_umol_L": 1185
+      },
+      {
+        "date": "2017-03-26",
+        "phe_level_umol_L": 1241
+      },
+      {
+        "date": "2017-06-24",
+        "phe_level_umol_L": 1319
+      },
+      {
+        "date": "2017-09-22",
+        "phe_level_umol_L": 1417
+      },
+      {
+        "date": "2017-12-21",
+        "phe_level_umol_L": 1497
+      },
+      {
+        "date": "2018-03-21",
+        "phe_level_umol_L": 1546
+      },
+      {
+        "date": "2018-06-19",
+        "phe_level_umol_L": 1587
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 0,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0015",
+    "age_band": "41-60",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2016-04-25",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2016-06-06",
+        "end_date": "2016-12-18",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 77
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2016-12-22",
+        "end_date": "2018-05-16",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 78
+      },
+      {
+        "lot": 3,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2018-06-03",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 83
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2018-06-03",
+        "phe_level_umol_L": 1240
+      },
+      {
+        "date": "2018-09-01",
+        "phe_level_umol_L": 1201
+      },
+      {
+        "date": "2018-11-30",
+        "phe_level_umol_L": 1231
+      },
+      {
+        "date": "2019-02-28",
+        "phe_level_umol_L": 1229
+      },
+      {
+        "date": "2019-05-29",
+        "phe_level_umol_L": 1202
+      },
+      {
+        "date": "2019-08-27",
+        "phe_level_umol_L": 1179
+      },
+      {
+        "date": "2019-11-25",
+        "phe_level_umol_L": 1172
+      },
+      {
+        "date": "2020-02-23",
+        "phe_level_umol_L": 1146
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 22,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0016",
+    "age_band": "41-60",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2011-09-29",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2011-10-22",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 87
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2011-10-22",
+        "phe_level_umol_L": 994
+      },
+      {
+        "date": "2012-01-20",
+        "phe_level_umol_L": 965
+      },
+      {
+        "date": "2012-04-19",
+        "phe_level_umol_L": 979
+      },
+      {
+        "date": "2012-07-18",
+        "phe_level_umol_L": 974
+      },
+      {
+        "date": "2012-10-16",
+        "phe_level_umol_L": 939
+      },
+      {
+        "date": "2013-01-14",
+        "phe_level_umol_L": 899
+      },
+      {
+        "date": "2013-04-14",
+        "phe_level_umol_L": 901
+      },
+      {
+        "date": "2013-07-13",
+        "phe_level_umol_L": 877
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 0,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0017",
+    "age_band": "13-17",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2018-04-25",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2018-05-12",
+        "end_date": "2018-08-18",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 89
+      },
+      {
+        "lot": 2,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2018-08-20",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 92
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2018-08-20",
+        "phe_level_umol_L": 1044
+      },
+      {
+        "date": "2018-11-18",
+        "phe_level_umol_L": 979
+      },
+      {
+        "date": "2019-02-16",
+        "phe_level_umol_L": 880
+      },
+      {
+        "date": "2019-05-17",
+        "phe_level_umol_L": 774
+      },
+      {
+        "date": "2019-08-15",
+        "phe_level_umol_L": 709
+      },
+      {
+        "date": "2019-11-13",
+        "phe_level_umol_L": 604
+      },
+      {
+        "date": "2020-02-11",
+        "phe_level_umol_L": 518
+      },
+      {
+        "date": "2020-05-11",
+        "phe_level_umol_L": 371
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 2,
+      "rapid_switch_count": 1
+    }
+  },
+  {
+    "patient_id": "SYN-0018",
+    "age_band": "6-12",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2013-12-19",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2014-01-13",
+        "end_date": "2015-05-30",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 66
+      },
+      {
+        "lot": 2,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2015-06-25",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 66
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2015-06-25",
+        "phe_level_umol_L": 1155
+      },
+      {
+        "date": "2015-09-23",
+        "phe_level_umol_L": 1023
+      },
+      {
+        "date": "2015-12-22",
+        "phe_level_umol_L": 912
+      },
+      {
+        "date": "2016-03-21",
+        "phe_level_umol_L": 798
+      },
+      {
+        "date": "2016-06-19",
+        "phe_level_umol_L": 898
+      },
+      {
+        "date": "2016-09-17",
+        "phe_level_umol_L": 1078
+      },
+      {
+        "date": "2016-12-16",
+        "phe_level_umol_L": 1247
+      },
+      {
+        "date": "2017-03-16",
+        "phe_level_umol_L": 1340
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 26,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0019",
+    "age_band": "6-12",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2019-08-18",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2019-09-16",
+        "end_date": "2021-01-08",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 69
+      },
+      {
+        "lot": 2,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2021-01-09",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 80
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2021-01-09",
+        "phe_level_umol_L": 1010
+      },
+      {
+        "date": "2021-04-09",
+        "phe_level_umol_L": 1005
+      },
+      {
+        "date": "2021-07-08",
+        "phe_level_umol_L": 1009
+      },
+      {
+        "date": "2021-10-06",
+        "phe_level_umol_L": 1034
+      },
+      {
+        "date": "2022-01-04",
+        "phe_level_umol_L": 1045
+      },
+      {
+        "date": "2022-04-04",
+        "phe_level_umol_L": 1073
+      },
+      {
+        "date": "2022-07-03",
+        "phe_level_umol_L": 1075
+      },
+      {
+        "date": "2022-10-01",
+        "phe_level_umol_L": 1038
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 1,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0020",
+    "age_band": "18-25",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2012-01-02",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2012-02-19",
+        "end_date": "2012-11-27",
+        "switch_reason": "adherence_decline",
+        "adherence_pct": 75
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2012-12-24",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 62
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2012-12-24",
+        "phe_level_umol_L": 993
+      },
+      {
+        "date": "2013-03-24",
+        "phe_level_umol_L": 881
+      },
+      {
+        "date": "2013-06-22",
+        "phe_level_umol_L": 796
+      },
+      {
+        "date": "2013-09-20",
+        "phe_level_umol_L": 661
+      },
+      {
+        "date": "2013-12-19",
+        "phe_level_umol_L": 741
+      },
+      {
+        "date": "2014-03-19",
+        "phe_level_umol_L": 887
+      },
+      {
+        "date": "2014-06-17",
+        "phe_level_umol_L": 1085
+      },
+      {
+        "date": "2014-09-15",
+        "phe_level_umol_L": 1268
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 27,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0021",
+    "age_band": "18-25",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2014-11-02",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2014-12-24",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 74
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2014-12-24",
+        "phe_level_umol_L": 1253
+      },
+      {
+        "date": "2015-03-24",
+        "phe_level_umol_L": 1254
+      },
+      {
+        "date": "2015-06-22",
+        "phe_level_umol_L": 1265
+      },
+      {
+        "date": "2015-09-20",
+        "phe_level_umol_L": 1262
+      },
+      {
+        "date": "2015-12-19",
+        "phe_level_umol_L": 1292
+      },
+      {
+        "date": "2016-03-18",
+        "phe_level_umol_L": 1268
+      },
+      {
+        "date": "2016-06-16",
+        "phe_level_umol_L": 1252
+      },
+      {
+        "date": "2016-09-14",
+        "phe_level_umol_L": 1265
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 0,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0022",
+    "age_band": "13-17",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2016-11-26",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2016-12-25",
+        "end_date": "2017-07-19",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 82
+      },
+      {
+        "lot": 2,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2017-08-25",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 84
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2017-08-25",
+        "phe_level_umol_L": 1113
+      },
+      {
+        "date": "2017-11-23",
+        "phe_level_umol_L": 1138
+      },
+      {
+        "date": "2018-02-21",
+        "phe_level_umol_L": 1158
+      },
+      {
+        "date": "2018-05-22",
+        "phe_level_umol_L": 1139
+      },
+      {
+        "date": "2018-08-20",
+        "phe_level_umol_L": 1109
+      },
+      {
+        "date": "2018-11-18",
+        "phe_level_umol_L": 1105
+      },
+      {
+        "date": "2019-02-16",
+        "phe_level_umol_L": 1130
+      },
+      {
+        "date": "2019-05-17",
+        "phe_level_umol_L": 1169
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 37,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0023",
+    "age_band": "6-12",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2019-03-07",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2019-03-31",
+        "end_date": "2020-07-15",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 64
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2020-07-16",
+        "end_date": "2020-10-07",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 85
+      },
+      {
+        "lot": 3,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2020-11-15",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 84
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2020-11-15",
+        "phe_level_umol_L": 1393
+      },
+      {
+        "date": "2021-02-13",
+        "phe_level_umol_L": 1426
+      },
+      {
+        "date": "2021-05-14",
+        "phe_level_umol_L": 1410
+      },
+      {
+        "date": "2021-08-12",
+        "phe_level_umol_L": 1419
+      },
+      {
+        "date": "2021-11-10",
+        "phe_level_umol_L": 1442
+      },
+      {
+        "date": "2022-02-08",
+        "phe_level_umol_L": 1453
+      },
+      {
+        "date": "2022-05-09",
+        "phe_level_umol_L": 1444
+      },
+      {
+        "date": "2022-08-07",
+        "phe_level_umol_L": 1422
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 40,
+      "rapid_switch_count": 1
+    }
+  },
+  {
+    "patient_id": "SYN-0024",
+    "age_band": "6-12",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2018-09-24",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2018-10-07",
+        "end_date": "2019-09-17",
+        "switch_reason": "tolerability_issue",
+        "adherence_pct": 62
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2019-10-16",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 84
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2019-10-16",
+        "phe_level_umol_L": 1482
+      },
+      {
+        "date": "2020-01-14",
+        "phe_level_umol_L": 1600
+      },
+      {
+        "date": "2020-04-13",
+        "phe_level_umol_L": 1704
+      },
+      {
+        "date": "2020-07-12",
+        "phe_level_umol_L": 1798
+      },
+      {
+        "date": "2020-10-10",
+        "phe_level_umol_L": 1908
+      },
+      {
+        "date": "2021-01-08",
+        "phe_level_umol_L": 2005
+      },
+      {
+        "date": "2021-04-08",
+        "phe_level_umol_L": 2065
+      },
+      {
+        "date": "2021-07-07",
+        "phe_level_umol_L": 2165
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 29,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0025",
+    "age_band": "18-25",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2018-06-07",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2018-07-27",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 72
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2018-07-27",
+        "phe_level_umol_L": 935
+      },
+      {
+        "date": "2018-10-25",
+        "phe_level_umol_L": 925
+      },
+      {
+        "date": "2019-01-23",
+        "phe_level_umol_L": 919
+      },
+      {
+        "date": "2019-04-23",
+        "phe_level_umol_L": 921
+      },
+      {
+        "date": "2019-07-22",
+        "phe_level_umol_L": 921
+      },
+      {
+        "date": "2019-10-20",
+        "phe_level_umol_L": 950
+      },
+      {
+        "date": "2020-01-18",
+        "phe_level_umol_L": 920
+      },
+      {
+        "date": "2020-04-17",
+        "phe_level_umol_L": 897
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 0,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0026",
+    "age_band": "13-17",
+    "sex": "M",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2014-04-18",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2014-05-24",
+        "end_date": "2015-01-08",
+        "switch_reason": "guideline_update",
+        "adherence_pct": 81
+      },
+      {
+        "lot": 2,
+        "drug": "Dietary Phe restriction only",
+        "drug_class": "Diet-based management",
+        "start_date": "2015-01-11",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 81
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2015-01-11",
+        "phe_level_umol_L": 1477
+      },
+      {
+        "date": "2015-04-11",
+        "phe_level_umol_L": 1519
+      },
+      {
+        "date": "2015-07-10",
+        "phe_level_umol_L": 1632
+      },
+      {
+        "date": "2015-10-08",
+        "phe_level_umol_L": 1720
+      },
+      {
+        "date": "2016-01-06",
+        "phe_level_umol_L": 1821
+      },
+      {
+        "date": "2016-04-05",
+        "phe_level_umol_L": 1861
+      },
+      {
+        "date": "2016-07-04",
+        "phe_level_umol_L": 1946
+      },
+      {
+        "date": "2016-10-02",
+        "phe_level_umol_L": 2024
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 3,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0027",
+    "age_band": "26-40",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2016-01-14",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2016-02-10",
+        "end_date": "2016-11-19",
+        "switch_reason": "guideline_update",
+        "adherence_pct": 56
+      },
+      {
+        "lot": 2,
+        "drug": "Sapropterin (Kuvan-class)",
+        "drug_class": "BH4 cofactor therapy",
+        "start_date": "2016-12-13",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 97
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2016-12-13",
+        "phe_level_umol_L": 1251
+      },
+      {
+        "date": "2017-03-13",
+        "phe_level_umol_L": 1270
+      },
+      {
+        "date": "2017-06-11",
+        "phe_level_umol_L": 1246
+      },
+      {
+        "date": "2017-09-09",
+        "phe_level_umol_L": 1285
+      },
+      {
+        "date": "2017-12-08",
+        "phe_level_umol_L": 1313
+      },
+      {
+        "date": "2018-03-08",
+        "phe_level_umol_L": 1276
+      },
+      {
+        "date": "2018-06-06",
+        "phe_level_umol_L": 1286
+      },
+      {
+        "date": "2018-09-04",
+        "phe_level_umol_L": 1321
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 24,
+      "rapid_switch_count": 0
+    }
+  },
+  {
+    "patient_id": "SYN-0028",
+    "age_band": "6-12",
+    "sex": "F",
+    "diagnosis": "Phenylketonuria (PKU)",
+    "diagnosis_date": "2017-03-17",
+    "lines_of_therapy": [
+      {
+        "lot": 1,
+        "drug": "Pegvaliase (PAL-class)",
+        "drug_class": "Enzyme substitution therapy",
+        "start_date": "2017-04-12",
+        "end_date": "2017-12-22",
+        "switch_reason": "adherence_decline",
+        "adherence_pct": 68
+      },
+      {
+        "lot": 2,
+        "drug": "Large Neutral Amino Acids (LNAA)",
+        "drug_class": "Amino acid supplementation",
+        "start_date": "2018-01-20",
+        "end_date": null,
+        "switch_reason": null,
+        "adherence_pct": 76
+      }
+    ],
+    "lab_trend": [
+      {
+        "date": "2018-01-20",
+        "phe_level_umol_L": 1055
+      },
+      {
+        "date": "2018-04-20",
+        "phe_level_umol_L": 1047
+      },
+      {
+        "date": "2018-07-19",
+        "phe_level_umol_L": 1017
+      },
+      {
+        "date": "2018-10-17",
+        "phe_level_umol_L": 1037
+      },
+      {
+        "date": "2019-01-15",
+        "phe_level_umol_L": 999
+      },
+      {
+        "date": "2019-04-15",
+        "phe_level_umol_L": 1028
+      },
+      {
+        "date": "2019-07-14",
+        "phe_level_umol_L": 994
+      },
+      {
+        "date": "2019-10-12",
+        "phe_level_umol_L": 998
+      }
+    ],
+    "flags": {
+      "gap_in_therapy_days": 29,
+      "rapid_switch_count": 0
+    }
+  }
+]
